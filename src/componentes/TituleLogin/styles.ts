@@ -1,5 +1,9 @@
 import styled from "styled-components"
 
+export const Conteiner = styled.div`
+
+`
+
 export const TextTitule = styled.text`
     color: ${props => props.theme['white']};
     font-size: 32px;
