@@ -86,3 +86,4 @@ npm run dev
 ```
 
 Desta forma agora vc podera usar o site e tambem fazer alteracoes no codigo fonte do projeto.
+
