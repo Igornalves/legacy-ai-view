@@ -1,10 +1,14 @@
 import { ButtonSubmitExist, Conteiner } from "./style";
 
-export default function ButtonSubmit() {
+interface ButtonSubmitProps {
+    text: string
+}
+
+export default function ButtonSubmit({text}: ButtonSubmitProps) {
     return(
         <Conteiner>
             <ButtonSubmitExist>
-                Entrar
+                {text}
             </ButtonSubmitExist>
         </Conteiner>
     );
