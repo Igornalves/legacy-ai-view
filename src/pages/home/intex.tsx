@@ -1,8 +1,9 @@
+import { ConteinerHome } from "./style";
 
 export default function Home() {
     return (
-        <div>
+        <ConteinerHome>
 
-        </div>
+        </ConteinerHome>
     );
 }
