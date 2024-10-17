@@ -68,7 +68,7 @@ crie uma pasta:
 Apos cria sua pasta vc vai entra no vscode para utilizar o seguinte comando no terminal
 
 ```powershell
-git clone https://github.com/Igornalves/Gerenciador_de_Tarefas_Interface-React.git
+git clone https://github.com/Igornalves/legacy-AI-View.git
 ```
 
 ### Excutando o Projeto de forma local
