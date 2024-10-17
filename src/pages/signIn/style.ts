@@ -11,7 +11,7 @@ export const DivConteiner = styled.main`
 
 export const DivForms = styled.div`
     width: 446px;
-    height: 610px;
+    height: 620px;
     border-radius: 20px ;
     display: flex;
     flex-direction: column;

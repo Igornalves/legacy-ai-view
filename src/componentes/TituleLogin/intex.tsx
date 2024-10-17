@@ -1,5 +1,6 @@
 import { 
     DivTitule,
+    Conteiner,
     Image,
     TextTitule
 } from "./styles";
@@ -11,13 +12,13 @@ interface TituleLoginProps {
 
 export default function TituleLogin({text}: TituleLoginProps) {
     return(
-        <div>
+        <Conteiner>
             <DivTitule>
                 <Image src={Icon} alt="icon do site"/>
                 <TextTitule>
                     {text}
                 </TextTitule>
             </DivTitule>
-        </div>
+        </Conteiner>
     );
 }
