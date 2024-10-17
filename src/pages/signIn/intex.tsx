@@ -13,7 +13,7 @@ export default function SignIn() {
                 <TituleLogin text="Entre em Legacy AI"/>
                
                 <Forms />
-                <ButtonSubmit text="Entrar" />
+                <ButtonSubmit text="Entrar"/>
             </DivForms>
         </DivConteiner>
     );

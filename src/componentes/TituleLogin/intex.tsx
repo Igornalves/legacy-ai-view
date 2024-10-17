@@ -13,7 +13,7 @@ export default function TituleLogin({text}: TituleLoginProps) {
     return(
         <div>
             <DivTitule>
-                <Image src={Icon} alt=""/>
+                <Image src={Icon} alt="icon do site"/>
                 <TextTitule>
                     {text}
                 </TextTitule>
