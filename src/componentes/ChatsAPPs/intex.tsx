@@ -1,8 +1,15 @@
+import { ConteinerDev, TextChat } from "./styles";
 
-export default function ChatsAPPs() {
+interface TypeChatsAppProps {
+    text: string,
+}
+
+export default function ChatsAPPs({ text }:TypeChatsAppProps ) {
     return(
-        <div>
-          
-        </div>
+        <ConteinerDev>
+            <TextChat>
+                {text}
+            </TextChat>
+        </ConteinerDev>
     );
 }
