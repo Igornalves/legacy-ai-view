@@ -7,6 +7,7 @@ export const ConteinerHome = styled.main`
     background: ${props => props.theme["gray-800"]};
     display: flex;
     flex-direction: row;
+    align-items: center;
 `
 
 export const DivRetangulo2 = styled.div`
